@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.airenamer</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <!-- UPDATE THIS PATH TO MATCH THE ACTUAL LOCATION OF THE VENV PYTHON BINARY -->
+        <string>/path/to/ai-clip-renamer/venv/bin/python</string>
+        <!-- UPDATE THIS PATH TO MATCH THE ACTUAL LOCATION OF MAIN.PY -->
+        <string>/path/to/ai-clip-renamer/main.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <!-- UPDATE THIS PATH TO MATCH THE SCRIPT DIRECTORY -->
+    <string>/path/to/ai-clip-renamer</string>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/ai_renamer.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/ai_renamer_error.log</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>

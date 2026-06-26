@@ -1,0 +1,5 @@
+dropbox
+openai
+ffmpeg-python
+python-dotenv
+requests
